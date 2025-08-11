@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", cursive;
+  line-height: 1;
+  font-weight: 400;
+  color: #3f3424;
+  background-color: #f9f0de;
+  overflow-x: hidden;
+}
+
+textarea {
+  resize: none;
+}
+
+/**************************/
+/* GENERAL REUSABLE COMPONENTS */
+/**************************/
+
+/* standard class to center all elements inside */
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  /* margin-bottom: 9.6rem; */
+}
+
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
+
+/* .grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+} */
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10.2rem;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tretiary {
+  font-weight: 700;
+  font-family: "Cinzel", sans-serif;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  line-height: 1.2;
+  /* color: #2e1907; */
+  margin-bottom: 4.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2rem;
+}
+
+.heading-tretiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #f9f0de;
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+  letter-spacing: 2px;
+  font-family: "Cinzel", sans-serif;
+}
+
+/* button */
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border: 2px #fff solid;
+
+  /* only necessary for .btn */
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  color: #382c1e;
+  border: 2px #382c1e solid;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #382c1e;
+  color: #fff;
+}
+/* placeholder  */
+::placeholder {
+  color: #273e77;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #273e77;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #273e77;
+}
+
+/* LIST */
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}

@@ -1,0 +1,352 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.logo {
+  height: 12rem;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #382c1e;
+  font-weight: 400;
+  font-size: 1.4rem;
+  transition: all 0.3;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #5b4937;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.4rem 2.6rem;
+  /* border-radius: 9px; */
+  color: #fff;
+  border: 2px #fff solid;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  color: #000;
+  background-color: #fff;
+}
+
+/**************************/
+/*SECTION HERO*/
+/**************************/
+
+.section-hero {
+  padding: 9.6rem 0;
+  background-color: #fff;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-img {
+  border-radius: 5px;
+  width: 100%;
+  /* border-radius: 9px; */
+}
+
+/**************************/
+/*SECTION SERVICES*/
+/**************************/
+
+.section-services {
+  padding: 9.6rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url("../img/gloria-domini-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-services-ctr {
+  text-align: center;
+  padding: 4.8rem 2.4rem;
+  display: grid;
+  column-gap: 3.2rem;
+  row-gap: 6.4rem;
+}
+
+.section-services-box {
+  padding: 2.4rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: center;
+  background-color: #f9f0de;
+}
+
+.service-icon {
+  font-size: 3.5rem;
+}
+
+.service-heading {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.service-description {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  text-align: left;
+}
+
+/**************************/
+/*PORTFOLIO SECTION*/
+/**************************/
+
+.section-ctr {
+  padding-top: 9.6rem;
+}
+
+.section-portfolio {
+  padding: 4.6rem;
+  margin: 0 auto;
+}
+
+.portfolio-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.portfolio-ctr {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.portfolio-description {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.portfolio-img {
+  overflow: hidden;
+}
+
+.portfolio-img img {
+  width: 100%;
+  display: block;
+  transition: all 0.4s;
+}
+
+.portfolio-img img:hover {
+  transform: scale(1.1);
+}
+
+.portfolio-btn {
+  justify-self: auto;
+  margin-top: 2.4rem;
+}
+
+/**************************/
+/*CONTACT SECTION*/
+/**************************/
+
+.section-contact {
+  padding: 6.4rem;
+}
+
+.contact-form--ctr {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+  color: #382c1e;
+  border: 2px solid #382c1e;
+  background-color: #fff;
+  /* border-radius: 5px; */
+}
+
+/* .btn--form {
+  background-color: #283884;
+  color: #fff;
+  align-self: end;
+  padding: 1.2rem;
+} */
+
+.btn--form {
+  font-family: inherit;
+  border: none;
+  color: #fff;
+  padding: 1.6rem 3.2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.4rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #382c1e;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #382c1e;
+}
+
+/**************************/
+/* FOOTER*/
+/**************************/
+
+.footer {
+  padding: 9.6rem 0;
+  text-align: center;
+  background-color: #3f3424;
+
+}
+/* logo */
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #fff;
+  margin-top: auto;
+  text-align: center;
+}
+
+/* social */
+.social-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-footer {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+  color: #fff;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #ff4545;
+}
+
+/* contacts */
+
+.contact-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.4rem;
+}
+
+.footer-contact-link:link,
+.footer-contact-link:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:active {
+  color: #ff4545;
+}
+
+.address {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #fff;
+  margin-top: auto;
+  text-align: left;
+}

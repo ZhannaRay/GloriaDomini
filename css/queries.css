@@ -1,0 +1,178 @@
+/**************************/
+/* BELOW 69*16 = 1104px 
+/**************************/
+
+@media (max-width: 69em) {
+  .hero {
+    max-width: 120rem;
+  }
+  .heading-secondary {
+    font-size: 3rem;
+    letter-spacing: 0.75rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .step-text-box {
+    padding: 0 9rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-services-ctr {
+    padding-left: 12.6rem;
+    padding-right: 12.6rem;
+    column-gap: 8.4rem;
+  }
+
+  .section-portfolio {
+    padding: 9.6rem 3.6rem;
+  }
+  .youtube-video-ctr {
+    margin: 9.6rem;
+  }
+}
+
+/**************************/
+/* BELOW 52*16 = 832px 
+/**************************/
+
+@media (max-width: 52em) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .section-services-ctr {
+    padding-left: 8.4rem;
+    padding-right: 8.4rem;
+    column-gap: 6.4rem;
+  }
+
+  .section-portfolio {
+    padding: 9.6rem;
+  }
+
+  .contact-form--ctr {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .youtube-video-ctr {
+    margin: 9.6rem 7.2rem;
+  }
+
+  .portfolio-heading-section {
+    padding: 4.8rem;
+  }
+
+  .heading-portfolio {
+    font-size: 2.4rem;
+  }
+
+  .footer {
+    padding: 7.2rem 0;
+  }
+}
+
+/**************************/
+/* BELOW 42*16 = 672px  first mobile
+/**************************/
+
+@media (max-width: 42em) {
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+  .header {
+    flex-direction: column;
+    height: auto;
+    gap: 3.2rem;
+    padding: 2.4rem 0;
+  }
+
+  .logo {
+    height: 12.4rem;
+  }
+  .main-nav-list {
+    flex-direction: column;
+  }
+
+  .section-hero {
+    padding: 5.6rem 0;
+  }
+
+  .hero-grid {
+    row-gap: 4.8rem;
+  }
+
+  .step-text-box {
+    padding: 0;
+  }
+
+  .heading-tretiary {
+    font-size: 2.4rem;
+  }
+
+  .step-description {
+    font-size: 1.4rem;
+  }
+
+  .step-img-box {
+    min-width: 300px;
+  }
+
+  .subheading {
+    margin-bottom: 0;
+  }
+
+  .section-portfolio {
+    padding: 9.6rem 2.4rem;
+  }
+
+  .section-contact {
+    padding: 6.4rem 2.4rem;
+  }
+
+  .youtube-video-ctr {
+    margin: 9.6rem 2.4rem;
+  }
+
+  .section-services-ctr {
+    padding-left: 10.4rem;
+    padding-right: 10.4rem;
+    row-gap: 4.8rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-heading-section {
+    padding: 4.8rem 2.4rem;
+  }
+  .footer {
+    padding: 6.4rem 0;
+  }
+}
+
+/**************************/
+/* BELOW 28*16 = 448px 
+/**************************/
+
+@media (max-width: 28em) {
+  .section-services-ctr {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    row-gap: 4.8rem;
+  }
+
+  .step-img-box {
+    min-width: 200px;
+  }
+
+  .section-services {
+    padding-bottom: 0;
+  }
+}
