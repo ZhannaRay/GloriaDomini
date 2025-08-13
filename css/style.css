@@ -18,6 +18,26 @@
 /**************************/
 /* NAVIGATION */
 /**************************/
+.main-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu-icon, .check-button {
+  cursor: pointer;
+  display: none;
+}
+
+.menu-icon .bar1,
+.menu-icon .bar2,
+.menu-icon .bar3 {
+  width: 28px;
+  height: 2px;
+  background-color: #382c1e;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
 
 .main-nav-list {
   list-style: none;
@@ -53,6 +73,19 @@
 .main-nav-link.nav-cta:active {
   color: #000;
   background-color: #fff;
+}
+
+.show-dropdown {
+  left: 0 !important;
+}
+.animate-button .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+.animate-button .bar2 {opacity: 0;}
+.animate-button .bar3 {
+  -webkit-transform: rotate(45deg) translate(-7px, -7px);
+  transform: rotate(45deg) translate(-6px, -6px);
 }
 
 /**************************/

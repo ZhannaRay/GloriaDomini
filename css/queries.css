@@ -78,10 +78,10 @@
 }
 
 /**************************/
-/* BELOW 42*16 = 672px  first mobile
+/* BELOW 46*16 = 736px  first mobile
 /**************************/
 
-@media (max-width: 42em) {
+@media (max-width: 46em) {
   .grid--3-cols {
     grid-template-columns: 1fr;
   }
@@ -92,12 +92,45 @@
     padding: 2.4rem 0;
   }
 
+  /* menu start*/
+  .menu-icon, .check-button {
+    display: block;
+  }
+  .header {
+    position: relative;
+  }
+  .check-button {
+    border: none;
+    background: transparent;
+    height: 55px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+
   .logo {
     height: 12.4rem;
   }
+
   .main-nav-list {
-    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #f9f0de;
+    left: -999px;
+    transition: all cubic-bezier(.79,.14,.15,.86) .5s;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    /* flex-direction: column; */
   }
+
+  .list-item{
+    margin-bottom: 2rem;
+  }
+  /* munu end */
 
   .section-hero {
     padding: 5.6rem 0;
