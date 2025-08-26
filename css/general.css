@@ -102,7 +102,9 @@ textarea {
 .text-underline {
   text-decoration: underline;
 }
-
+.text-tab {
+  margin-left: 3rem;
+}
 .subheading {
   display: block;
   font-size: 1.8rem;
