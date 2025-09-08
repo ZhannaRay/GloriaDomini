@@ -96,7 +96,7 @@ textarea {
   font-size: 2rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .text-underline {
@@ -107,7 +107,7 @@ textarea {
 }
 .subheading {
   display: block;
-  font-size: 1.8rem;
+  font-size: 3.2rem;
   font-weight: 700;
   color: #f9f0de;
   text-transform: uppercase;

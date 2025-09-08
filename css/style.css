@@ -114,8 +114,8 @@
 }
 
 .step-description {
-  font-size: 1.8rem;
-  line-height: 1.8;
+  font-size: 1.6rem;
+  line-height: 1.4;
 }
 
 .step-img-box {
@@ -138,10 +138,10 @@
   padding: 9.6rem 0;
   background-image: linear-gradient(
       to right bottom,
-      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.35),
       rgba(0, 0, 0, 0.35)
     ),
-    url("../img/gloria-domini-bg.jpg");
+    url("../img/gloria-domini-bg_02.jpg");
   background-size: cover;
   background-position: center;
 }
