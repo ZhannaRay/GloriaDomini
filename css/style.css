@@ -384,3 +384,32 @@
   margin-top: auto;
   text-align: left;
 }
+
+/**************************/
+/* TABLE*/
+/**************************/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+th,
+td {
+  border: 1px solid #333;
+  padding: 10px;
+}
+th {
+  background-color: #757575;
+  font-weight: bold;
+  color: #fff;
+}
+td {
+  background-color: #cecece;
+}
+tbody tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+thead {
+  background-color: #ddd;
+}

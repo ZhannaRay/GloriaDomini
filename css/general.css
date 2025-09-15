@@ -96,7 +96,10 @@ textarea {
   font-size: 2rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
-  /* text-align: center; */
+}
+
+.heading-tretiary-center {
+  text-align: center;
 }
 
 .text-underline {
@@ -120,6 +123,13 @@ textarea {
   font-size: 1.4rem;
   line-height: 1.4;
   text-align: left;
+  margin-bottom: 3.2rem;
+}
+
+.table-text {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  text-align: center;
   margin-bottom: 3.2rem;
 }
 
