@@ -120,6 +120,7 @@
   white-space: nowrap;
   padding: 10px 16px;
   color: #382c1e;
+  text-align: right;
 }
 
 .submenu > li > a:hover,
