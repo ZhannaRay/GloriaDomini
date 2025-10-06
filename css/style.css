@@ -90,6 +90,43 @@
   transform: rotate(45deg) translate(-6px, -6px);
 }
 
+/* ====== NESTED MENU (Desktop default) ====== */
+
+.has-submenu {
+  position: relative;
+}
+
+.has-submenu > .submenu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  list-style: none;
+  min-width: 22rem;
+  margin: 0;
+  padding: 8px 0;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+}
+
+.has-submenu:hover > .submenu,
+.has-submenu:focus-within > .submenu {
+  display: block;
+}
+
+.submenu > li > a {
+  display: block;
+  white-space: nowrap;
+  padding: 10px 16px;
+  color: #382c1e;
+}
+
+.submenu > li > a:hover,
+.submenu > li > a:focus {
+  background: rgba(0, 0, 0, 0.05);
+}
+
 /**************************/
 /*SECTION HERO*/
 /**************************/
@@ -389,6 +426,13 @@
 /**************************/
 /* TABLE*/
 /**************************/
+
+.table-text {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
 
 table {
   border-collapse: collapse;

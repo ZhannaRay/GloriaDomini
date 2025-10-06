@@ -35,6 +35,10 @@
   .youtube-video-ctr {
     margin: 9.6rem;
   }
+  th,
+  td {
+    padding: 5px;
+  }
 }
 
 /**************************/
@@ -136,6 +140,25 @@
   .main-nav-list .list-item {
     margin-bottom: 4rem;
   }
+  /* ====== NESTED MENU (Mobile) ====== */
+  .has-submenu {
+    width: 100%;
+  }
+
+  .has-submenu > .submenu {
+    position: static;
+    display: block; /* always visible on mobile */
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    margin: 6px 0 0 0;
+  }
+
+  .submenu > li > a {
+    padding: 10px 0 10px 20px; /* indent sub-items */
+    font-size: 1.4rem;
+  }
+
   /* munu end */
 
   .section-hero {
@@ -199,6 +222,10 @@
     line-height: 1;
     text-align: center;
     margin-bottom: 1rem;
+  }
+  th,
+  td {
+    padding: 3px;
   }
 }
 
