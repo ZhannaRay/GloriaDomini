@@ -39,6 +39,16 @@
   td {
     padding: 5px;
   }
+
+  .leadership-section {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+
+  .team-intro {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
 }
 
 /**************************/
@@ -84,6 +94,10 @@
     line-height: 1;
     text-align: center;
     margin-bottom: 1rem;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -157,6 +171,21 @@
   .submenu > li > a {
     padding: 10px 0 10px 20px; /* indent sub-items */
     font-size: 1.4rem;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+
+  .team-member {
+    max-width: 24rem;
+    margin: 0 auto;
+  }
+
+  .team-intro {
+    margin: 0;
+    text-align: center;
   }
 
   /* munu end */
