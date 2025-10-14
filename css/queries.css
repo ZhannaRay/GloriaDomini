@@ -40,14 +40,35 @@
     padding: 5px;
   }
 
-  .leadership-section {
-    grid-template-columns: 1fr;
+  .leadership-rows {
     gap: 4.8rem;
   }
 
-  .team-intro {
-    max-width: 60rem;
-    margin: 0 auto;
+  .leadership-member {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3.2rem;
+  }
+
+  .leader-profile {
+    flex: 0 0 auto;
+  }
+
+  .leader-details {
+    width: 100%;
+  }
+
+  .leader-tablist {
+    justify-content: center;
+  }
+
+  .leadership-group {
+    margin: 2.4rem 0;
+  }
+
+  .leadership-group-photo {
+    max-width: 420px;
   }
 }
 
@@ -96,8 +117,17 @@
     margin-bottom: 1rem;
   }
 
-  .team-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .leader-photo {
+    width: 16rem;
+    height: 16rem;
+  }
+
+  .leader-tablist {
+    justify-content: center;
+  }
+
+  .leader-panel {
+    padding: 2rem;
   }
 }
 
@@ -173,19 +203,36 @@
     font-size: 1.4rem;
   }
 
-  .team-grid {
-    grid-template-columns: 1fr;
+  .leadership-member {
+    gap: 2.4rem;
+  }
+
+  .leader-details {
+    min-width: 100%;
+  }
+
+  .leader-photo {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .leadership-rows {
     gap: 3.2rem;
+    margin-top: 3.2rem;
   }
 
-  .team-member {
-    max-width: 24rem;
-    margin: 0 auto;
+  .leader-tablist {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.8rem;
   }
 
-  .team-intro {
-    margin: 0;
-    text-align: center;
+  .leader-tab {
+    width: 100%;
+  }
+
+  .leader-panel {
+    padding: 1.8rem;
   }
 
   /* munu end */
